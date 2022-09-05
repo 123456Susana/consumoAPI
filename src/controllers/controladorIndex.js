@@ -7,6 +7,7 @@ let botonArtista=document.getElementById("botonbuscar")
 botonArtista.addEventListener("click", function(evento){
 
   let artista=document.getElementById("artista")
+  
   const URI= generarURI(artista.value)
   
   async function activarServicio(){
